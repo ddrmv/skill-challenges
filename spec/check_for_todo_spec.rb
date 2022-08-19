@@ -25,9 +25,5 @@ RSpec.describe "check_for_todo method" do
     it "returns true if #TODO is at the end of string" do
       expect(check_for_todo("one two #TODO")).to eq true
     end
-
-    it "returns true if #TODO is at the end of string" do
-      expect(check_for_todo("one two #TODO")).to eq true
-    end
   end
 end
