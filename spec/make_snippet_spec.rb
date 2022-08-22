@@ -1,4 +1,4 @@
-require 'diary_system'
+require 'make_snippet'
 
 RSpec.describe "make snippet" do
   it "returns first five words of the string input" do
