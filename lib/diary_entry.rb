@@ -14,7 +14,7 @@ class DiaryEntry
   end
 
   def count_words
-    @contents.split.length
+    @contents.split(" ").length
   end
 
   def reading_time(wpm)
